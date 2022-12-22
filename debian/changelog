@@ -1,0 +1,83 @@
+fcitx5-hangul (5.0.9-1) unstable; urgency=medium
+
+  * new upstream release.
+
+ -- Boyuan Yang <byang@debian.org>  Sat, 28 May 2022 00:18:49 -0400
+
+fcitx5-hangul (5.0.8-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Boyuan Yang <byang@debian.org>  Wed, 16 Mar 2022 11:54:47 -0400
+
+fcitx5-hangul (5.0.7-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Boyuan Yang <byang@debian.org>  Sun, 06 Feb 2022 17:37:25 -0500
+
+fcitx5-hangul (5.0.6-1) unstable; urgency=medium
+
+  * New upstream release 5.0.6.
+  * debian/copyright: Update copyright information.
+
+ -- Boyuan Yang <byang@debian.org>  Wed, 15 Dec 2021 14:28:44 -0500
+
+fcitx5-hangul (5.0.5-1) unstable; urgency=medium
+
+  * New upstream release 5.0.5.
+  * Drop icon-related patch:
+    + ebian/rules: Ship non-Flatpak icons again.
+    + debian/control: Mark binary package to conflict with fcitx-hangul.
+
+ -- Boyuan Yang <byang@debian.org>  Wed, 24 Nov 2021 11:06:52 -0500
+
+fcitx5-hangul (5.0.4-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+
+ -- Shengjing Zhu <zhsj@debian.org>  Fri, 01 Oct 2021 03:18:30 +0800
+
+fcitx5-hangul (5.0.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release
+  * Update Standards-Version to 4.6.0 (no changes)
+
+ -- Shengjing Zhu <zhsj@debian.org>  Wed, 25 Aug 2021 14:12:09 +0800
+
+fcitx5-hangul (5.0.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release
+  * Update Standards-Version to 4.5.1 (no changes)
+
+ -- Shengjing Zhu <zhsj@debian.org>  Sat, 16 Jan 2021 02:54:05 +0800
+
+fcitx5-hangul (5.0.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release
+  * Only install icons with org.fcitx.Fcitx5 prefix
+  * Bump fcitx5 to 5.0.2
+  * Drop fcitx5 Depends from fcitx5-hangul.
+    Make it consistent with other fcitx5 methods
+
+ -- Shengjing Zhu <zhsj@debian.org>  Sat, 05 Dec 2020 22:36:40 +0800
+
+fcitx5-hangul (5.0.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release
+  * Bump fcitx5 to 5.0.0
+  * Add appstream to Build-Depends
+  * Rename icon with fcitx5 prefix (Closes: #970136)
+
+ -- Shengjing Zhu <zhsj@debian.org>  Tue, 10 Nov 2020 23:02:32 +0800
+
+fcitx5-hangul (0.0~git20200609.1c924d4-1) unstable; urgency=medium
+
+  * Initial release.
+
+ -- Boyuan Yang <byang@debian.org>  Sun, 05 Jul 2020 13:37:02 -0400

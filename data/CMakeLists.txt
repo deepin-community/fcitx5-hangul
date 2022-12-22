@@ -1,0 +1,5 @@
+install(FILES symbol.txt DESTINATION ${FCITX_INSTALL_PKGDATADIR}/hangul/)
+
+install(DIRECTORY 48x48 64x64 DESTINATION "${CMAKE_INSTALL_DATADIR}/icons/hicolor"
+            PATTERN .* EXCLUDE
+            PATTERN *~ EXCLUDE)
