@@ -1,3 +1,9 @@
+fcitx5-hangul (5.0.9-1deepin0) unstable; urgency=medium
+
+  * No source change upload against GCC 12.
+
+ -- Tianyu Chen <sweetyfish@deepin.org>  Thu, 19 Sep 2024 22:46:20 +0800
+
 fcitx5-hangul (5.0.9-1) unstable; urgency=medium
 
   * new upstream release.
